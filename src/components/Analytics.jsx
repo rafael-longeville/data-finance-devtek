@@ -18,7 +18,7 @@ const Analytics = () => {
     head.appendChild(script);
   });
   return (
-    <div className="w-full bg-white py-16 px-4" id="services">
+    <div className="w-full bg-white py-10 px-4" id="services">
       <div className="max-w-[1400px] mx-auto grid gap-10 md:grid-cols-2">
         <div>
           <div
