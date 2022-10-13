@@ -13,7 +13,7 @@ const Navbar = () => {
       <h1 className="w-full text-3xl font-bold text-[#00df9a]">
         Devtek Solutions
       </h1>
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex w-[500px]">
         <a href="#">
           <li className="p-4">Home</li>
         </a>
@@ -21,13 +21,7 @@ const Navbar = () => {
           <li className="p-4">Services</li>
         </a>
         <a href="#cards">
-          <li className="p-4">Pricing</li>
-        </a>
-        <a href="#">
-          <li className="p-4">About</li>
-        </a>
-        <a href="#">
-          <li className="p-4">Contact</li>
+          <li className="p-4">Pricing Example</li>
         </a>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
