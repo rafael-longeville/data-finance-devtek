@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Analytics from './components/Analytics';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
