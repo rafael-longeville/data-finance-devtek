@@ -46,7 +46,7 @@ const Analytics = () => {
               <GridItem rowStart={isMobile && "2"}>
                 <Box boxShadow="md">
                   <div
-                    className="calendly-inline-widget w-[350px] h-[910px] md:w-[600px] h-[800px]"
+                    className="calendly-inline-widget w-[350px] h-[930px] md:w-[600px] h-[800px]"
                     data-url="https://calendly.com/devteksolutions/30min"
                   />
                 </Box>
