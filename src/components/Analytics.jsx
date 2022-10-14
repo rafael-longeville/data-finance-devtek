@@ -75,11 +75,15 @@ const Analytics = () => {
                     <Text textAlign="justify">
                       By the end of this Audit call, you will have a clear
                       understanding of the next steps you can take for your
-                      business to start generating consistent and reliable
-                      results online with our website design services.<br></br>
+                      business{" "}
+                      <b>
+                        to start generating consistent and reliable results
+                        online
+                      </b>{" "}
+                      with our website design services.<br></br>
                       <br></br>
-                      Find a time on Rafael’s calendar to schedule your call
-                      today and we will have our meeting soon!
+                      Find a time on Rafael’s calendar to schedule{" "}
+                      <b>your call today</b> and we will have our meeting soon!
                     </Text>
                   </Box>
                   <Box>
@@ -91,7 +95,9 @@ const Analytics = () => {
                     <Grid templateRows="repeat(4,1fr)" gap="5">
                       <GridItem>
                         <Grid
-                          templateColumns={isMobile ? "0.1fr 1fr" : "0.050fr 1fr"}
+                          templateColumns={
+                            isMobile ? "0.1fr 1fr" : "0.050fr 1fr"
+                          }
                         >
                           <GridItem>
                             <div>
@@ -110,7 +116,9 @@ const Analytics = () => {
                       </GridItem>
                       <GridItem>
                         <Grid
-                          templateColumns={isMobile ? "0.1fr 1fr" : "0.050fr 1fr"}
+                          templateColumns={
+                            isMobile ? "0.1fr 1fr" : "0.050fr 1fr"
+                          }
                         >
                           <GridItem>
                             <CheckCircleFill size="15px" color="#00df9a" />
@@ -128,7 +136,9 @@ const Analytics = () => {
                       </GridItem>
                       <GridItem>
                         <Grid
-                          templateColumns={isMobile ? "0.1fr 1fr" : "0.050fr 1fr"}
+                          templateColumns={
+                            isMobile ? "0.1fr 1fr" : "0.050fr 1fr"
+                          }
                         >
                           <GridItem>
                             <CheckCircleFill size="15px" color="#00df9a" />
@@ -146,7 +156,9 @@ const Analytics = () => {
                       </GridItem>
                       <GridItem>
                         <Grid
-                          templateColumns={isMobile ? "0.1fr 1fr" : "0.050fr 1fr"}
+                          templateColumns={
+                            isMobile ? "0.1fr 1fr" : "0.050fr 1fr"
+                          }
                         >
                           <GridItem>
                             <CheckCircleFill size="15px" color="#00df9a" />
