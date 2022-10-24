@@ -1,5 +1,8 @@
 import React from "react";
 
+const Placeholder = () => {
+  return <p>Hello</p>;
+};
 
 const Newsletter = () => {
   return (

@@ -34,7 +34,7 @@ const Analytics = () => {
   });
   return (
     <>
-      <Box w="100%" bgColor="white" color="black" p="4" pt="5vh">
+      <Box w="100%" bgColor="white" color="black" p="4">
         <Flex justify="center" id="services" pt="10" pb="10">
           <Box w={!isMobile && "60%"}>
             <Grid
@@ -46,8 +46,8 @@ const Analytics = () => {
               <GridItem rowStart={isMobile && "2"}>
                 <Box boxShadow="md">
                   <div
-                    className="calendly-inline-widget w-[350px] h-[940px] md:w-[600px] h-[800px]"
-                    data-url="https://calendly.com/devteksolutions/15min"
+                    className="calendly-inline-widget w-[350px] h-[930px] md:w-[600px] h-[800px]"
+                    data-url="https://calendly.com/devteksolutions/30min"
                   />
                 </Box>
               </GridItem>
@@ -168,6 +168,20 @@ const Analytics = () => {
           </Box>
         </Flex>
       </Box>
+      {/* <div className="w-full bg-white py-10 px-4" id="services">
+        <div className="grid grid-rows-2 gap-10 w-[350px] md:grid grid-cols-2 w-[1400px]  mx-auto">
+           
+            <div className="flex self-start">
+              <div className="w-[100%] mx-auto grid gap-2 md:grid-cols-[1vw_25vw]">
+      
+                <div className="grid gap-y-3 md:grid-rows-4 ">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </>
   );
 };
