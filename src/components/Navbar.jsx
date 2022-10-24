@@ -14,7 +14,7 @@ const Navbar = () => {
         Devtek Solutions
       </h1>
       <ul className="hidden md:flex w-[500px]">
-        <a href="#">
+        <a href="/">
           <li className="p-4">Home</li>
         </a>
         <a href="#services">
