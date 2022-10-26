@@ -5,10 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  background-color: #000300;
-  max-width: 100%;
-}
+
 img {
   max-width: 100%;
   display: block;
@@ -24,6 +21,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 600px) {
+  a {
+    display: inline-block;
+  }
 }
 
 a:before {

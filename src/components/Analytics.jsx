@@ -34,25 +34,25 @@ const Analytics = () => {
   });
   return (
     <>
-      <Box w="100%" bgColor="white" color="black" p="4">
-        <Flex justify="center" id="services" pt="10" pb="10">
+      <Box w="100%" bgColor="white" color="black" p="4" pt="5vh" id="services">
+        <Flex justify="center" pt="10" pb="10" >
           <Box w={!isMobile && "60%"}>
             <Grid
               templateRows={isMobile && "1fr 1fr"}
               templateColumns={!isMobile && "1fr 1fr"}
-              gap="10"
+              gap="2vw"
               w="100%"
             >
               <GridItem rowStart={isMobile && "2"}>
-                <Box boxShadow="md">
+                <Box p={5} id="box" align={isMobile && "center"}>
                   <div
-                    className="calendly-inline-widget w-[350px] h-[910px] md:w-[600px] h-[800px]"
-                    data-url="https://calendly.com/devteksolutions/30min"
+                    className="calendly-inline-widget w-[350px] h-[960px] md:w-[600px] h-[800px] shadow-xl"
+                    data-url="https://calendly.com/devteksolutions/15min"
                   />
                 </Box>
               </GridItem>
               <GridItem>
-                <Flex direction="column">
+                <Flex direction="column" boxShadow="md" align={isMobile && "center"}>
                   <Box align={isMobile && "center"}>
                     <img
                       className="h-[150px] w-[150px] rounded-full border-solid border-2 border-teal-500"
